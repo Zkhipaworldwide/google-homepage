@@ -14,44 +14,38 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: white;
+  background-color: #333;
 }
 
 li {
   float: left;
 }
 
-.right {
-  float: right;
-  display: block;
-}
-
 li a {
   display: block;
-  color: black;
-  font-size: 10px;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: white;
+  background-color: #111;
 }
 
 .active {
-  background-color: grey;
+  background-color: #4CAF50;
 }
 </style>
 </head>
 <body>
 <header>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a class="right" href="#">About</a></li>
-      </ul>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li style="float:right"><a class="active" href="#about">About</a></li>
+  </ul>
 </header>
 <footer>
 </footer>
