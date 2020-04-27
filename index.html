@@ -51,12 +51,20 @@ li a:hover:not(.active) {
   justify-content: center;
   align-items: center;
   padding-top: 109px;
-  margin-left: auto;
-  
+  margin-left: auto; 
   width: 60%
-
 }
-
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
 </style>
 </head>
 <body>
@@ -73,6 +81,9 @@ li a:hover:not(.active) {
 <div class="middle">
 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google image"/>
 </div>
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
 <footer>
 </footer>
 </body>
