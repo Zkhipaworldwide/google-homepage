@@ -98,7 +98,13 @@ input[type=text]:hover {
             padding: 10px; 
             text-align: center;
             position: absolute; 
+        }
+        .search {
+          position: relative;
         } 
+        .search .icon {
+          position: absolute;
+        }
 </style>
 </head>
 <body>
@@ -115,7 +121,7 @@ input[type=text]:hover {
 <div class="middle">
 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google image"/>
 </div>
-<form>
+<form class="search">
   <input type="text" class="input-icons" maxlength="2048" name="search">
   <span class="material-icons icon">search</span>
 </form>
