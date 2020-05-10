@@ -47,23 +47,24 @@ li a:hover:not(.active) {
   margin: 4px 2px;
   cursor: pointer;
 }
-.button-2 {
-  background-color: #e6e6e6;
-  border: none;
-  color:#4d4d4d ;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  display: flex;
-  flex-direction: row;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+
+.submit {background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
-.button-2:hover {
-  
-}
+
 .middle {
   
   justify-content: center;
@@ -123,8 +124,8 @@ input[type=text]:hover {
 <form class="search">
   <input type="text" class="input-icons" maxlength="2048" name="search">
 </form>
-  <a class="button-2">Google Search</a>
-  <a class="button-2">I'm Feeling Lucky</a>
+<input type="submit" class="submit" name="google search">
+
 </div>
 <footer>
 </footer>
